@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                           
+                            <img src="assets/img/archit.jpeg" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Archit Samnerkar</h2>
+                    <h3 class="profile__profession">Web developer</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/architsamnerkar/ target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/archit-samnerkar-017a43222" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/architsam" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number"> Student at</h3>
+                        <h2 class="profile__info-description">
+                            VIT pune
+                        </h2>
+                    </div>
+                   
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Alumni of </h3>
+                        <p class="profile__info-description">Bal Shikshan <br> Mandir</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/Archit_Resume.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                   
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Bizzargro</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Portfolio website</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        
+
+                       
+
+                     
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        
+        
+                                      
+                                    
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="ri-checkbox-circle-line"></i>HSC SCORE 90.83<BR>
+
+                <i class="ri-checkbox-circle-line"></i>SSC SCORE 90.4<BR>100/100 in Math
+
+
+
+            </section>
+        </main>
+
+      
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
